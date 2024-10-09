@@ -15,6 +15,15 @@
 		80384EA92CA3C0AC005BDEA6 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 80384EA82CA3C0AC005BDEA6 /* Base */; };
 		80384EB22CA3C11E005BDEA6 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80384EB12CA3C11E005BDEA6 /* LoginModel.swift */; };
 		80384EB52CA3C14D005BDEA6 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80384EB42CA3C14D005BDEA6 /* LoginView.swift */; };
+		80FF82962CAD26BD00262EB7 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 80FF82952CAD26BD00262EB7 /* SnapKit */; };
+		80FF82982CAD29C200262EB7 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FF82972CAD29C200262EB7 /* MainTabBarController.swift */; };
+		80FF829A2CAD29E200262EB7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FF82992CAD29E200262EB7 /* HomeViewController.swift */; };
+		80FF829C2CAD29EC00262EB7 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FF829B2CAD29EC00262EB7 /* SettingsViewController.swift */; };
+		80FF829E2CAD2D1900262EB7 /* StyleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FF829D2CAD2D1900262EB7 /* StyleViewController.swift */; };
+		80FF82A02CAD2D2100262EB7 /* ShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FF829F2CAD2D2000262EB7 /* ShopViewController.swift */; };
+		80FF82A22CAD2D2B00262EB7 /* SavedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FF82A12CAD2D2B00262EB7 /* SavedViewController.swift */; };
+		80FF82A42CAD2D3000262EB7 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FF82A32CAD2D3000262EB7 /* MyViewController.swift */; };
+		80FF82A62CAD329D00262EB7 /* ProfileEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FF82A52CAD329D00262EB7 /* ProfileEditViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +37,14 @@
 		80384EAA2CA3C0AC005BDEA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		80384EB12CA3C11E005BDEA6 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
 		80384EB42CA3C14D005BDEA6 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		80FF82972CAD29C200262EB7 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		80FF82992CAD29E200262EB7 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		80FF829B2CAD29EC00262EB7 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		80FF829D2CAD2D1900262EB7 /* StyleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleViewController.swift; sourceTree = "<group>"; };
+		80FF829F2CAD2D2000262EB7 /* ShopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopViewController.swift; sourceTree = "<group>"; };
+		80FF82A12CAD2D2B00262EB7 /* SavedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedViewController.swift; sourceTree = "<group>"; };
+		80FF82A32CAD2D3000262EB7 /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
+		80FF82A52CAD329D00262EB7 /* ProfileEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80FF82962CAD26BD00262EB7 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +111,14 @@
 			isa = PBXGroup;
 			children = (
 				80384EA02CA3C0AA005BDEA6 /* LoginViewController.swift */,
+				80FF82972CAD29C200262EB7 /* MainTabBarController.swift */,
+				80FF82992CAD29E200262EB7 /* HomeViewController.swift */,
+				80FF829B2CAD29EC00262EB7 /* SettingsViewController.swift */,
+				80FF829D2CAD2D1900262EB7 /* StyleViewController.swift */,
+				80FF829F2CAD2D2000262EB7 /* ShopViewController.swift */,
+				80FF82A12CAD2D2B00262EB7 /* SavedViewController.swift */,
+				80FF82A32CAD2D3000262EB7 /* MyViewController.swift */,
+				80FF82A52CAD329D00262EB7 /* ProfileEditViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -141,6 +167,9 @@
 				Base,
 			);
 			mainGroup = 80384E902CA3C0AA005BDEA6;
+			packageReferences = (
+				80FF82942CAD26BD00262EB7 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 80384E9A2CA3C0AA005BDEA6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -170,9 +199,17 @@
 			files = (
 				80384EA12CA3C0AA005BDEA6 /* LoginViewController.swift in Sources */,
 				80384EB22CA3C11E005BDEA6 /* LoginModel.swift in Sources */,
+				80FF82A02CAD2D2100262EB7 /* ShopViewController.swift in Sources */,
+				80FF82982CAD29C200262EB7 /* MainTabBarController.swift in Sources */,
+				80FF829E2CAD2D1900262EB7 /* StyleViewController.swift in Sources */,
 				80384E9D2CA3C0AA005BDEA6 /* AppDelegate.swift in Sources */,
 				80384EB52CA3C14D005BDEA6 /* LoginView.swift in Sources */,
+				80FF829A2CAD29E200262EB7 /* HomeViewController.swift in Sources */,
+				80FF82A22CAD2D2B00262EB7 /* SavedViewController.swift in Sources */,
 				80384E9F2CA3C0AA005BDEA6 /* SceneDelegate.swift in Sources */,
+				80FF82A42CAD2D3000262EB7 /* MyViewController.swift in Sources */,
+				80FF82A62CAD329D00262EB7 /* ProfileEditViewController.swift in Sources */,
+				80FF829C2CAD29EC00262EB7 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,6 +430,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		80FF82942CAD26BD00262EB7 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		80FF82952CAD26BD00262EB7 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 80FF82942CAD26BD00262EB7 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 80384E912CA3C0AA005BDEA6 /* Project object */;
 }
