@@ -8,9 +8,7 @@
 import UIKit
 
 class ProfileEditViewController: UIViewController {
-
     private let profileEditView = ProfileEditView() 
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
