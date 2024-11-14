@@ -51,6 +51,7 @@ class MainTabBarController: UITabBarController {
         
         // 각 ViewController 생성
         let homeVC = HomeViewController()
+        let homeNavVC = UINavigationController(rootViewController: homeVC)  // HomeViewController를 UINavigationController로 감쌈
         let styleVC = StyleViewController()
         let shopVC = ShopViewController()
         let savedVC = SavedViewController()
@@ -65,7 +66,7 @@ class MainTabBarController: UITabBarController {
         myNavVC.tabBarItem = UITabBarItem(title: "MY", image: resizeImage(named: "My"), tag: 4)  // myNavVC에 탭바 아이템 설정
         
         // 탭바에 ViewController들 설정
-        viewControllers = [homeVC, styleVC, shopVC, savedVC, myNavVC]  // MyViewController가 아닌 myNavVC 추가
+        viewControllers = [homeNavVC, styleVC, shopVC, savedVC, myNavVC]  // MyViewController가 아닌 myNavVC 추가
     }
     
     // 이미지 크기 조정 함수
