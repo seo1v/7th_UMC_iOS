@@ -35,13 +35,10 @@ class LoginViewController: UIViewController {
 }
 
 class LoginCoordinator {
-    
     weak var viewController: UIViewController?
-    
     init(viewController: UIViewController) {
         self.viewController = viewController
     }
-    
     func navigateToMainTabBar() {
         let mainTabBarController = MainTabBarController()
         mainTabBarController.modalPresentationStyle = .fullScreen
